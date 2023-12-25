@@ -44,11 +44,11 @@ public class DetaliiDestinatieFragment extends Fragment {
             double pret = destinatie.getPret();
             String pretString = String.format("%.0f", pret);
             textViewPret.setText(pretString + " EUR");
-            TabLayout tabLayout = view.findViewById(R.id.tabLayout);
             viewPager = view.findViewById(R.id.viewPager);
             recenzieAdapter = new RecenzieAdapter(getActivity(), destinatie.getListaRecenzii());
             viewPager.setAdapter(recenzieAdapter);
-            tabLayout.setupWithViewPager(viewPager);
+            TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tabLayout);
+            tabLayout.setupWithViewPager(viewPager, true);
         }
 
 
