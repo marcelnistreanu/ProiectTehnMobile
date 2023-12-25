@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="34sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:hint="@string/nume_de_utilizator"
+        android:textSize="20sp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/bg_input"
+        android:drawableStart="@drawable/profile_icon"
+        android:drawablePadding="10dp" />
+
+    <EditText
+        android:id="@+id/editTextParola"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/parola"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/lock_icon"
+        android:drawablePadding="10dp"
+        android:background="@drawable/bg_input"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/butonAutentificare"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/autentificare"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/bg_btn" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Proiect</string>
+    <string name="autentificare">Autentificare</string>
+    <string name="nume_de_utilizator">Nume de utilizator</string>
+    <string name="parola">Parola</string>
+    <string name="destinatie">Destinatie:</string>
+    <string name="pret">Pret:</string>
+    <string name="detalii">Detalii</string>
+    <string name="numedestinatie">NumeDestinatie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descriere">Descriere:</string>
+    <string name="rezerva">Rezerva</string>
+    <string name="recenzii">Recenzii:</string>
+    <string name="slideshow_cu_comentarii">Slideshow cu comentarii</string>
+</resources>

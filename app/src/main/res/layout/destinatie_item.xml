@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="@drawable/btn_box"
+    android:layout_marginTop="15dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/destinatie"
+            android:textColor="@color/black"
+            android:textSize="22sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pret"
+            android:textColor="@color/black"
+            android:textSize="22sp"/>
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/detalii"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="22sp" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/editTextDenumireDestinatie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/numedestinatie"
+            android:textColor="@color/black"
+            android:textSize="22sp"/>
+
+
+        <TextView
+            android:id="@+id/editTextPret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pret"
+            android:textColor="#880808"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
