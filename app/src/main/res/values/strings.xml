@@ -14,4 +14,7 @@
     <string name="recenzii">Recenzii:</string>
     <string name="slideshow_cu_comentarii">Slideshow cu comentarii</string>
     <string name="adauga_recenzie">Adauga recenzie</string>
+    <string name="adauga_destinatie">Adauga destinatie</string>
+    <string name="editeaza_destinatie">Editeaza</string>
+    <string name="sterge_destinatie">Sterge</string>
 </resources>

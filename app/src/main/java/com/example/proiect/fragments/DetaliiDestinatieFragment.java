@@ -8,9 +8,11 @@ import androidx.viewpager.widget.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.proiect.R;
+import com.example.proiect.SharedPreferencesUtils;
 import com.example.proiect.adapters.RecenzieAdapter;
 import com.example.proiect.models.Destinatie;
 import com.google.android.material.tabs.TabLayout;
@@ -50,8 +52,6 @@ public class DetaliiDestinatieFragment extends Fragment {
             TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tabLayout);
             tabLayout.setupWithViewPager(viewPager, true);
         }
-
-
         return view;
     }
 }

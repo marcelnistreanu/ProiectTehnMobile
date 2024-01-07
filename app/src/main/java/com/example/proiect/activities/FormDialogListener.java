@@ -1,2 +1,4 @@
-package com.example.proiect.activities;public interface FormDialogListener {
+package com.example.proiect.activities;
+
+public interface FormDialogListener {
 }

@@ -2,7 +2,7 @@ package com.example.proiect;
 
 import com.example.proiect.models.Destinatie;
 
-public interface OnItemsClickedListener {
+public interface OnItemsDeletedListener {
 
     void onItemClicked(Destinatie destinatie);
 }
